@@ -1,0 +1,86 @@
+.about {
+    background-color: $background;
+
+    &__content {
+        padding-top: 71px;
+    }
+
+    &__container {
+        max-width: 1200px;
+    }
+
+    &__title {
+        text-align: center;
+        letter-spacing: -0.7px;
+        margin-bottom: 66px;
+    }
+
+    &__feanite {
+        display: flex;
+    }
+
+    &__item {
+        display: flex;
+    }
+}
+
+.feanite__image {
+    display: flex;
+    width: 100%;
+    margin-right: 105.2px;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 210px;
+        height: 210px;
+        right: 0px;
+        bottom: 0px;
+        transform: translate(50%, 50%);
+
+        background-image: url(../img/about/about-feanite-brill-1440.png);
+        background-position: center;
+
+        background-size: cover;
+
+        background-repeat: no-repeat;
+    }
+
+    margin-bottom: 38.44px;
+}
+
+.feanite__image--img {
+    max-width: 539.795px;
+    height: auto;
+}
+
+.feanite__text {
+    padding-top: 32px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.item__text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 108px;
+    gap: 27px;
+    margin-right: 202px;
+    max-width: 540px;
+    letter-spacing: 0.2px;
+}
+
+.item__text--p {
+    line-height: 20.4px;
+}
+
+.item__image {
+    width: 100%;
+    padding-right: 98px;
+
+    &--img {
+        max-width: 360px;
+        height: auto;
+    }
+}

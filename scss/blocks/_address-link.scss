@@ -1,0 +1,27 @@
+.address-link {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.address-link--text {
+
+    width: 384px;
+
+    font-size: 17px;
+
+    color: $secondary;
+
+    /* Шапка */
+    font-family: $font-second;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+    /* 120% */
+
+    max-width: 384px;
+    width: 100%;
+
+    letter-spacing: 0.8px;
+
+    opacity: 0.88;
+}

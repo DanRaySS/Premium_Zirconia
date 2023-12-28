@@ -1,0 +1,43 @@
+.addition-info {
+
+    &__container {
+        max-width: 996px;
+    }
+
+    margin-bottom: 49px;
+}
+
+.quality-mark {
+    margin-bottom: 96px;
+}
+
+.pure {
+    margin-bottom: 50px;
+}
+
+.quality-mark,
+.pure {
+    display: flex;
+    gap: 126px;
+}
+
+.quality-mark__image,
+.pure__image {
+    width: 100%;
+
+    &--img {
+        max-width: 282px;
+        height: auto;
+    }
+}
+
+.quality-mark__title--h2,
+.pure__title--h2 {
+    margin-bottom: 28px;
+}
+
+.quality-mark_text--p,
+.pure_text--p {
+    font-size: 17px;
+    line-height: 20.4px;
+}

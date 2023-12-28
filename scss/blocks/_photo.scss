@@ -1,0 +1,55 @@
+.photo {
+
+    &__images {
+        display: flex;
+        gap: 24px;
+        margin-bottom: 50px;
+    }
+
+    &__image--img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    &__content {
+        align-items: center;
+        padding-top: 51px;
+        padding-bottom: 50px;
+        border-top: 1px solid $secondary;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__text {
+        margin-bottom: 56px;
+        text-align: center;
+    }
+
+    &__button {
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        text-align: center;
+
+        width: 164px;
+        height: 55px;
+        color: $black;
+        text-align: center;
+
+        /* Кнопка */
+        font-family: $font-main;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19.2px;
+        /* 120% */
+        text-transform: uppercase;
+
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+}

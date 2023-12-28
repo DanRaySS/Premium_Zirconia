@@ -1,0 +1,11 @@
+@mixin mediatablet {
+    @media only screen and (max-width: $tablet) {
+        @content;
+    }
+}
+
+@mixin mediaphone {
+    @media only screen and (max-width: $phone) {
+        @content;
+    }
+}

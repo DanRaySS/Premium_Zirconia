@@ -1,0 +1,25 @@
+//Base
+
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/mixins";
+@import "./base/base";
+
+//Blocks
+
+@import "./blocks/wrapper";
+@import "./blocks/address-link";
+@import "./blocks/tag";
+@import "./blocks/about";
+@import "./blocks/feanites";
+@import "./blocks/info";
+@import "./blocks/characterization";
+@import "./blocks/guarantors";
+@import "./blocks/addition-info";
+@import "./blocks/what";
+@import "./blocks/photo";
+
+
+// Media
+
+@import './media/media';

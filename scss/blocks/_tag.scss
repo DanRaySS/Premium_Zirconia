@@ -1,0 +1,57 @@
+.tag {
+    display: block;
+
+    &__title {
+        margin-bottom: 33px;
+        letter-spacing: 0.2px;
+    }
+
+
+    &__subtitle {
+        margin-bottom: 42.8px;
+        line-height: 20px;
+        max-width: 1198px;
+        width: 100%;
+        letter-spacing: 0.18px;
+    }
+
+    &__info {
+        padding-top: 35px;
+    }
+
+    &__info-with-image {
+        padding-left: 165px;
+        display: flex;
+    }
+
+    &__image {
+        margin-right: 198px;
+    }
+
+    &__image--img {
+        height: auto;
+        max-width: 282px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+    }
+
+    &__text--p {
+        line-height: 20.4px;
+    }
+
+    margin-bottom: 57px;
+}
+
+.title-unique-code {
+    letter-spacing: 0.5px;
+    margin-bottom: 33px;
+}
+
+.title-tag {
+    letter-spacing: 0.2px;
+    margin-bottom: 31px;
+}

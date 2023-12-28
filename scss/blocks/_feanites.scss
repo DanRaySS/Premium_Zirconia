@@ -1,0 +1,214 @@
+.feanites {
+    padding-top: 120px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1200px;
+    }
+
+    &__block-1 {
+        padding: 0 51px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 126px;
+        min-height: 312px;
+        padding-bottom: 121px;
+        border-bottom: 1px solid $secondary;
+        align-items: baseline;
+    }
+
+    &__block-2 {
+        padding: 0 51px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-bottom: 1px solid $secondary;
+        row-gap: 38px;
+        height: 100%;
+        padding-bottom: 80px;
+        padding-top: 49.4px;
+        margin-bottom: 50px;
+        align-items: baseline;
+    }
+
+    &__block-3 {
+        padding: 0 51px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 38px;
+        height: 100%;
+        padding-bottom: 80px;
+        align-items: baseline;
+    }
+
+    &__image {
+        width: 180px;
+        max-height: 230px;
+        position: relative;
+
+        &--img {
+            max-width: 180px;
+            height: auto;
+        }
+
+    }
+
+}
+
+.feanites__block-1--image,
+.feanites__block-2--image,
+.feanites__block-3--image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feanites__block-1--image {
+    flex: 0 0 calc(33% - 126px * 3);
+}
+
+.feanites__block-2--image {
+    flex: 0 0 50%;
+}
+
+.feanites__block-3--image {
+    flex: 0 0 50%;
+}
+
+.feanite__image--caption {
+    margin-top: -4px;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    color: $black;
+    text-align: center;
+
+    /* Подпись №2 */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+    /* 120% */
+}
+
+.colors-info {
+    max-width: 486px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        margin-bottom: 29px;
+    }
+
+    &__subtitle {
+        line-height: 20.4px;
+
+        &--p {
+            font-size: 17px;
+        }
+    }
+}
+
+//FeaniteCaptions
+
+// .orange-yellow::after {
+//     content: "Оранжево-жёлтый (TCF™)";
+// }
+
+// .aquamarine::after {
+//     content: "Аквамарин (TCF™)";
+// }
+
+// .colorless::after {
+//     content: "Бесцветный фианит";
+// }
+
+// .gray-blue::after {
+//     content: "Серо-голубой фианит (TCF™)";
+// }
+
+// .bright-blue::after {
+//     content: "Ярко-голубой фианит «Арктик» (TCF™)";
+// }
+
+// .pure-blue::after {
+//     content: "Нежно-голубой фианит «Фэнси» (TCF™)";
+// }
+
+// .blue-fancy::after {
+//     content: "Голубой фианит «Фэнси» (TCF™)";
+// }
+
+// .mint-green-frost::after {
+//     content: "Мятно-зелёный фианитс эффектом «изморози»(TCF™)";
+// }
+
+// .mint-green::after {
+//     content: "Мятно-зелёный фианит (TCF™)";
+// }
+
+// .green::after {
+//     content: "Зелёный фианит (TCF™)";
+// }
+
+// .green-fancy::after {
+//     content: "Зелёный фианит «Фэнси» (TCF™)";
+// }
+
+// .bright-green-fancy::after {
+//     content: "Светло-зелёный фианит «Фэнси» (TCF™)";
+// }
+
+// .green-spring::after {
+//     content: "Зелёный фианит «Весна» (TCF™)";
+// }
+
+// .yellow-fancy::after {
+//     content: "Жёлтый фианит «Фэнси» (TCF™)";
+// }
+
+// .champagne-fancy::after {
+//     content: "Шампань фианит «Фэнси» (TCF™)";
+// }
+
+// .amber::after {
+//     content: "Янтарный фианит (TCF™)";
+// }
+
+// .cognac-caramel::after {
+//     content: "Коньячный фианит «Карамель» (TCF™)";
+// }
+
+// .dark-red-fancy::after {
+//     content: "Тёмно-красный фианит «Фэнси» (TCF™)";
+// }
+
+// .red::after {
+//     content: "Красный фианит(TCF™)";
+// }
+
+// .pink-fancy::after {
+//     content: "Розовый фианит «Фэнси» (TCF™)";
+// }
+
+// .pink::after {
+//     content: "Розовый фианит";
+// }
+
+// .purple-fancy::after {
+//     content: "Пурпурный фианит «Фэнси»(TCF™)";
+
+// }
+
+// .purple-pink::after {
+//     content: "Пурпурно-розовый фианит (TCF™)";
+// }
+
+// .pink-morganit-fancy::after {
+//     content: "Розовый морганит фианит «Фэнси» (TCF™)";
+// }

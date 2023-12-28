@@ -1,0 +1,44 @@
+.what-first {
+
+    &__content-first {
+        padding-top: 50px;
+        padding-bottom: 73px;
+    }
+
+
+    &__title {
+        text-align: center;
+        margin-bottom: 29px;
+    }
+
+    &__container {
+        max-width: 1200px;
+    }
+}
+
+.what-second {
+    background-color: $background-second;
+    outline: $background 1px solid;
+
+    &__content-second {
+        padding-top: 36px;
+        padding-bottom: 68px;
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 29px;
+    }
+
+    &__container {
+        max-width: 1200px;
+    }
+
+    margin-bottom: 63px;
+}
+
+.what-first__text,
+.what-second__text {
+    font-size: 17px;
+    line-height: 20px;
+}

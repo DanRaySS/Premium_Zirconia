@@ -1,0 +1,42 @@
+.wrapper {
+    display: block;
+    max-width: 1440px;
+    height: 193.408px;
+    background: url(./../img/wrapper/wrapper-bg-1440.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__content {
+        padding-top: 72px;
+    }
+
+    &__title {
+        color: $black;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        letter-spacing: -0.9px;
+        overflow: hidden;
+        text-transform: uppercase;
+    }
+
+    margin-bottom: 57.5px;
+}
+
+.frequent-questions {
+    &__title {
+        color: $black;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        letter-spacing: -0.9px;
+        overflow: hidden;
+        text-transform: none;
+    }
+}
+
+.frequent-questions {
+    margin-bottom: 0;
+}

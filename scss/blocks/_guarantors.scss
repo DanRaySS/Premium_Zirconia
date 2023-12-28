@@ -1,0 +1,130 @@
+.guarantors {
+
+    &__title {
+        text-align: center;
+        margin-bottom: 48.75px;
+    }
+
+    &__classic {
+        margin-bottom: 49px;
+    }
+}
+
+.classic {
+
+    &__title {
+        margin-bottom: 28px;
+    }
+
+    &-with-changes__title {
+        margin-bottom: 28px;
+    }
+}
+
+.classic-with-changes,
+.experimental {
+    margin-bottom: 49px;
+}
+
+.experimental {
+    padding-bottom: 50px;
+    border-bottom: 1px solid $secondary;
+}
+
+.brill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 60px;
+
+    &__image {
+        // width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &--img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        &--caption {
+            display: flex;
+            justify-content: center;
+            width: 180px;
+            color: $black;
+            text-align: center;
+
+            /* Подпись №2 */
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 19.2px;
+            /* 120% */
+        }
+    }
+}
+
+$brill__items: 6;
+$brill__offset: 24px;
+
+.brill__image {
+    flex: 0 0 calc(16.66666666666667% - $brill__offset * ($brill__items - 1));
+}
+
+// .round::after {
+//     content: 'Круглые «Брил. огр.»';
+// }
+
+// .princess-bob::after {
+//     content: 'Каре принцесса';
+// }
+
+// .marquis::after {
+//     content: 'Маркиз';
+// }
+
+// .pear::after {
+//     content: 'Груша';
+// }
+
+// .oval::after {
+//     content: 'Овал';
+// }
+
+// .heart::after {
+//     content: 'Сердце';
+// }
+
+// .baguette-princess::after {
+//     content: 'Багет принцесса';
+// }
+
+// .octagon-stup::after {
+//     content: 'Октагон ступ.';
+// }
+
+// .baguette-stup::after {
+//     content: 'Багет ступ.';
+// }
+
+// .triangle::after {
+//     content: 'Триангл ступ.';
+// }
+
+// .bob::after {
+//     content: 'Каре ступ.';
+// }
+
+// .baguette-trapezoid-stup::after {
+//     content: 'Багет трапец. ступ.';
+// }
+
+// .antik::after {
+//     content: 'Антик';
+// }
+
+//BrillCaptions
