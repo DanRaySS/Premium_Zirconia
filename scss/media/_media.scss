@@ -229,6 +229,10 @@
         flex: 0 0 calc(33% - 40px - 50px - 23px);
     }
 
+    .feanites__block-2--image {
+        flex: 0 0 50%;
+    }
+
     .info__content {
         column-gap: 19px;
         padding-top: 29px;
@@ -466,6 +470,7 @@
     .tag {
         display: none;
     }
+
 
     .title-unique-code {
         text-align: center;

@@ -145,7 +145,7 @@ a {
   color: #918F89;
   text-align: center;
   /* Подзаголовки №2 */
-  font-family: "Caladea", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
@@ -182,7 +182,6 @@ a {
 
 .wrapper {
   display: block;
-  max-width: 1440px;
   height: 193.408px;
   background: url(./../img/wrapper/wrapper-bg-1440.png);
   background-repeat: no-repeat;
@@ -228,7 +227,7 @@ a {
   font-size: 17px;
   color: #918F89;
   /* Шапка */
-  font-family: "Caladea", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 19.2px;
@@ -337,7 +336,7 @@ a {
   bottom: 0px;
   -webkit-transform: translate(50%, 50%);
           transform: translate(50%, 50%);
-  background-image: url(../img/about/about-feanite-brill-1440.png);
+  background-image: url(../img/about/about-feanite-brill-1440-240.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -487,8 +486,8 @@ a {
 
 .feanites__block-2--image {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
 }
 
 .feanites__block-3--image {
@@ -667,8 +666,8 @@ a {
 
 .brill__image {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 calc(16.6666666667% - 120px);
-          flex: 0 0 calc(16.6666666667% - 120px);
+      -ms-flex: 0 0 17.5%;
+          flex: 0 0 17.5%;
 }
 
 .addition-info {
@@ -700,8 +699,15 @@ a {
 }
 .quality-mark__image--img,
 .pure__image--img {
-  max-width: 282px;
+  max-width: 230px;
   height: auto;
+  justify-items: center;
+}
+
+.quality-mark__title,
+.pure__title {
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .quality-mark__title--h2,
@@ -728,8 +734,8 @@ a {
 }
 
 .what-second {
-  background-color: #CFE4E9;
-  outline: #E8F1FA 1px solid;
+  background-color: #E8F1FA;
+  outline: #CFE4E9 1px solid;
   margin-bottom: 63px;
 }
 .what-second__content-second {
@@ -1005,6 +1011,11 @@ a {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 calc(33% - 40px - 50px - 23px);
             flex: 0 0 calc(33% - 40px - 50px - 23px);
+  }
+  .feanites__block-2--image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
   }
   .info__content {
     -webkit-column-gap: 19px;

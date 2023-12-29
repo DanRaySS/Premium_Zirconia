@@ -26,9 +26,15 @@
     width: 100%;
 
     &--img {
-        max-width: 282px;
+        max-width: 230px;
         height: auto;
+        justify-items: center;
     }
+}
+
+.quality-mark__title,
+.pure__title {
+    align-self: center;
 }
 
 .quality-mark__title--h2,
