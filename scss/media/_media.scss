@@ -125,7 +125,7 @@
             bottom: 0px;
             transform: translate(50%, 50%);
 
-            background-image: url(../img/about/about-feanite-brill-834.png);
+            background-image: url(./../img/about/about-feanite-brill-834.png);
             background-position: center;
 
             background-size: cover;
@@ -229,7 +229,8 @@
         flex: 0 0 calc(33% - 40px - 50px - 23px);
     }
 
-    .feanites__block-2--image {
+    .feanites__block-2--image,
+    .feanites__block-3--image {
         flex: 0 0 50%;
     }
 
@@ -564,7 +565,7 @@
             bottom: 0px;
             transform: translateY(50%);
 
-            background-image: url(../img/about/about-feanite-brill-390.png);
+            background-image: url(./../img/about/about-feanite-brill-390.png);
             background-position: center;
 
             background-size: cover;
@@ -1035,7 +1036,8 @@
 
     .photo__content {
         border: none;
-        padding: 0;
+        padding-top: 0;
+        padding-bottom: 40px;
     }
 
     .photo__image {

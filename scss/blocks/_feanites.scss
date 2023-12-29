@@ -67,16 +67,13 @@
     align-items: center;
 }
 
-.feanites__block-1--image {
-    flex: 0 0 calc(33% - 126px * 3);
-}
-
-.feanites__block-2--image {
+.feanites__block-2--image,
+.feanites__block-3--image {
     flex: 0 0 25%;
 }
 
-.feanites__block-3--image {
-    flex: 0 0 50%;
+.feanites__block-1--image {
+    flex: 0 0 calc(33% - 126px * 3);
 }
 
 .feanite__image--caption {

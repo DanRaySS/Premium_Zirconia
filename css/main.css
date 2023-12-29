@@ -336,7 +336,7 @@ a {
   bottom: 0px;
   -webkit-transform: translate(50%, 50%);
           transform: translate(50%, 50%);
-  background-image: url(../img/about/about-feanite-brill-1440-240.svg);
+  background-image: url(./../img/about/about-feanite-brill-1440-240.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -478,22 +478,17 @@ a {
           align-items: center;
 }
 
-.feanites__block-1--image {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 calc(33% - 378px);
-          flex: 0 0 calc(33% - 378px);
-}
-
-.feanites__block-2--image {
+.feanites__block-2--image,
+.feanites__block-3--image {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 25%;
           flex: 0 0 25%;
 }
 
-.feanites__block-3--image {
+.feanites__block-1--image {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+      -ms-flex: 0 0 calc(33% - 378px);
+          flex: 0 0 calc(33% - 378px);
 }
 
 .feanite__image--caption {
@@ -928,7 +923,7 @@ a {
     bottom: 0px;
     -webkit-transform: translate(50%, 50%);
             transform: translate(50%, 50%);
-    background-image: url(../img/about/about-feanite-brill-834.png);
+    background-image: url(./../img/about/about-feanite-brill-834.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1012,7 +1007,8 @@ a {
         -ms-flex: 0 0 calc(33% - 40px - 50px - 23px);
             flex: 0 0 calc(33% - 40px - 50px - 23px);
   }
-  .feanites__block-2--image {
+  .feanites__block-2--image,
+  .feanites__block-3--image {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
@@ -1297,7 +1293,7 @@ a {
     bottom: 0px;
     -webkit-transform: translateY(50%);
             transform: translateY(50%);
-    background-image: url(../img/about/about-feanite-brill-390.png);
+    background-image: url(./../img/about/about-feanite-brill-390.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1738,7 +1734,8 @@ a {
   }
   .photo__content {
     border: none;
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 40px;
   }
   .photo__image {
     display: -webkit-box;
