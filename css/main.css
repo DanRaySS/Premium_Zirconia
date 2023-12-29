@@ -815,7 +815,7 @@ a {
     font-size: 16px;
   }
   .container {
-    width: 734px;
+    max-width: 734px;
   }
   .wrapper {
     background: url(./../img/wrapper/wrapper-bg-834.png);
@@ -1172,7 +1172,7 @@ a {
     font-size: 14px;
   }
   .container {
-    width: 350px;
+    max-width: 350px;
   }
   .wrapper {
     background: url(./../img/wrapper/wrapper-bg-390.png);
